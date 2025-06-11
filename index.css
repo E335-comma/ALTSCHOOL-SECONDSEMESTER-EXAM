@@ -1,0 +1,75 @@
+.grid-container{
+  display:grid;
+}
+
+.grid-item1{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color:rgba(123, 55, 7, 0.381);
+  text-align: center;
+  
+  
+}
+
+@keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+}
+.item1-body {
+  animation-name: fadeIn;
+  animation-duration: 6s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 5;
+  animation-fill-mode: forwards;
+}
+
+.grid-item2{
+  font-weight:lighter;
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(77, 5, 5);
+  color: white;
+  text-align: justify;
+  grid-template-rows: 400px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+@keyframes item2-body {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(100px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.item2-body{
+  animation: item2-body 3s infinite;
+}
+
+@keyframes slidetext {
+      from { opacity: 0; }
+      to { opacity: 1; }
+}
+.slide-text {
+  animation-name: slidetext;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 5;
+  animation-fill-mode: forwards;
+}
+
+@media (max-width: 768px) {
+  .grid-container {
+      padding: 15px;
+  }
+}
+  
+  
+ 
