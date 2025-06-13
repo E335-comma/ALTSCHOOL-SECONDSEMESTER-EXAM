@@ -1,4 +1,4 @@
-#ALTSCHOOL SECOND SEMESTER EXAMINATION PROJECT
+# ALTSCHOOL SECOND SEMESTER EXAMINATION PROJECT
 
 - NAME: Aderoju Elizabeth Ifeoluwa
 - SCHOOL: Altschool Africa
@@ -7,13 +7,13 @@
 
 ---
 
-#This is my Documentation for my Altschool Second Semester Examination Project
+# This is my Documentation for my Altschool Second Semester Examination Project
 
 ---
 
-#My Project Overview
+# My Project Overview
 
-##The examination is basically about:
+## The examination is basically about:
 - Provisioning a server which I did with AWS(Elastic Compute Cloud).
 
 - Setting up a web server in which I used Nginx instead of Apache because it is lightweight.
@@ -24,17 +24,17 @@
 
 ---
 
-#Objectives
+# Objectives
 
 The goal of my project is to provision a server using EC2, set up a web server, create a dynamic landing page, deploy the created dynamic landing page and necessary networking settings and security to make the landing page accessible to everyone and making sure it's secure enough to be accessed.
 
 ---
 
-#Below is the step by step explanation on how I carried out the project:
+# Below is the step by step explanation on how I carried out the project:
 
 ---
 
-##Step 1: Creating a Dynamic Landing Page
+## Step 1: Creating a Dynamic Landing Page
 
 1. I created a personalized landing page showing information about me and a short pitch that explained why my project titled "AI Tune: The Future of Instrument Learning" innovative. I used a little bit of CSS animations for my page.
 I created three files for my landing page and the three files are;
@@ -46,7 +46,7 @@ I created three files for my landing page and the three files are;
 
 ---
 
-##Step 2: Provisioning a server using AWS EC2
+## Step 2: Provisioning a server using AWS EC2
 
 1. I chose AWS as my cloud provider
 
@@ -78,13 +78,13 @@ After I succesfully carried out these steps, I clicked on launch instance to cre
 
 ---
 
-##Step 3: Securing a Subdomain from FreeDNS for configuration of HTTPS
+## Step 3: Securing a Subdomain from FreeDNS for configuration of HTTPS
 
 I got my subdomain from https://freedns.afraid.org/ . FreeDNS provides free third-party domain support, covers DNS during domain transfers and it offers services such as dynamic DNS hosting, static DNS hosting, and subdomain and domain hosting. It helps users to control their domain name traffic and  access their computers using a name instaed of a numeric IP address. When I got to the website I signed up, went ahead to create a subdomain, I input my EC2 Ip address as the destination, I chose a domain and I secured a domain with the name Adeife08.jumpingcrab.com
 
 ---
 
-##Step 4: Installing Nginx and Securing Certbot 
+## Step 4: Installing Nginx and Securing Certbot 
 
 I ssh into my EC2 instance using the key pair name that I created when trying to launch the instance and the key pair name is "project-server.pem" . I ssh into my instance by using the command "ssh -i .\project-server.pem ubuntu@16.171.28.67.
 After I've successfully done that, I went on to taking the following steps:
@@ -109,7 +109,7 @@ After I've successfully done that, I went on to taking the following steps:
 
 ---
 
-##Step 5: Securing the Landing Page with HTTPS (Bonus Task)
+## Step 5: Securing the Landing Page with HTTPS (Bonus Task)
 
 Here are some reasons as to why it is important to secure a website with HTTPS:
 
@@ -120,7 +120,7 @@ Here are some reasons as to why it is important to secure a website with HTTPS:
 
 ---
 
-##Submissions
+## Submissions
 
 ---
 
