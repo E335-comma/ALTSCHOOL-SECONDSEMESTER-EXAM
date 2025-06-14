@@ -124,13 +124,24 @@ Here are some reasons as to why it is important to secure a website with HTTPS:
 
 ---
 
-Domain name: Adeife08.jumpingcrab.com
+### Domain name: Adeife08.jumpingcrab.com
 
-Public IP Address: 16.171.28.67
+### Public IP Address: 16.171.28.67
 
-Public URL Address: https://adeife08.jumpingcrab.com/
+### Public URL Address: https://adeife08.jumpingcrab.com/
 
-Screenshot of the rendered page:
+### Screenshot:
+Below are the images of my webpage with the ip address with no secured https and the image of the webpage with the custom domain with secured https.
+
+---
+
+## Challenges Faced
+
+1. My nginx wasn't working after I installed it and tried to run it on my browser and I guessed it was due to unstable network, but it was later rectified.
+
+2. My webpage wasn't showing that it is secured after my SSL certificate has been enabled, but I realised that it was because I didn't add HTTPS to my inbound in my instance security group, but after I added it the webpage showed that it is secure.  
+
+
 
 
 
