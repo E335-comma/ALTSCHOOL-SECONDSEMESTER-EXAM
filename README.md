@@ -133,6 +133,10 @@ Here are some reasons as to why it is important to secure a website with HTTPS:
 ### Screenshot:
 Below are the images of my webpage with the ip address with no secured https and the image of the webpage with the custom domain with secured https.
 
+![image alt](https://github.com/E335-comma/ALTSCHOOL-SECONDSEMESTER-EXAM/blob/main/Ip%20address.png)
+
+![image alt](https://github.com/E335-comma/ALTSCHOOL-SECONDSEMESTER-EXAM/blob/main/Secured%20domain%20name.png)
+
 ---
 
 ## Challenges Faced
@@ -141,7 +145,7 @@ Below are the images of my webpage with the ip address with no secured https and
 
 2. My webpage wasn't showing that it is secured after my SSL certificate has been enabled, but I realised that it was because I didn't add HTTPS to my inbound in my instance security group, but after I added it the webpage showed that it is secure.  
 
-![image alt](https://github.com/E335-comma/ALTSCHOOL-SECONDSEMESTER-EXAM/blob/main/Ip%20address.png)
+
 
 
 
